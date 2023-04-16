@@ -18,7 +18,7 @@
 |
 */
 
-import './routes/test'
 import './routes/auth'
-import './routes/users'
 import './routes/news'
+import './routes/private_news'
+import './routes/private_users'
