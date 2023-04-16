@@ -1,0 +1,11 @@
+@layout('private/index')
+
+@set('title', 'Listar Notícias | Painel do Editor')
+
+@section('content')
+
+@each(article in articles)
+  <li> {{ article.title }} </li>
+@end
+
+@end

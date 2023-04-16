@@ -1,7 +1,7 @@
 # AdoNews
 Projeto Fullstack de um  blog de notícias, utilizando AdonisJS.
 
-Neste projeto é proposto um blog de notícias Fullstack utilizando o AdonisJS e TailwindCSS.
+Neste projeto é proposto um blog de notícias Fullstack utilizando o AdonisJS e Tailwind CSS.
 
 Serão explorados tópicos como:
 
