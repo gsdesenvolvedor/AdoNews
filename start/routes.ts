@@ -19,6 +19,6 @@
 */
 
 import './routes/auth'
-import './routes/news'
-import './routes/private_news'
+import './routes/articles'
+import './routes/private_articles'
 import './routes/private_users'

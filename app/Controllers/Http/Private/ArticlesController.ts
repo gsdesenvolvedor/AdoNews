@@ -1,8 +1,8 @@
 import type { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
 
-export default class NewsController {
+export default class ArticlesController {
   public async index({view}: HttpContextContract) {
-    return view.render('private/news/index')
+    return view.render('private/articles/index')
   }
 
   public async read({}: HttpContextContract) {}

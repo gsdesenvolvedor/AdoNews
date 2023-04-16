@@ -38,7 +38,7 @@
 
             <i icon-name="fingerprint"></i>
 
-            <span>Logado como: Gabriel Souza</span>
+            <span>Logado como: {{ auth.user.name }}</span>
 
           </a>
 
@@ -46,7 +46,7 @@
 
         <li>
 
-          <a href="#" class="text-white flex items-center space-x-2">
+          <a href="/logout" class="text-white flex items-center space-x-2">
 
             <i icon-name="log-out"></i>
 
