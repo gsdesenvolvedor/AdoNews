@@ -1,5 +1,4 @@
 import type {HttpContextContract} from '@ioc:Adonis/Core/HttpContext'
-import session from "Config/session";
 
 export default class AuthController {
   public async index({view}: HttpContextContract) {

@@ -4,12 +4,8 @@
 
 @section('content')
 
-<br><br><br>
-<br><br><br>
-<br><br><br>
-
-@if(auth.isLoggedIn)
-<p> Hello {{ auth.user.name }} </p>
-@endif
+@each(article in articles)
+  <li> {{ article.title }} </li>
+@end
 
 @end

@@ -12,6 +12,7 @@ export default class ArticlesController {
   }
 
   public async read({view}: HttpContextContract) {
+
     return view.render('articles/read')
   }
 }
