@@ -15,4 +15,4 @@ Route.group(() => {
 
   Route.get('/recover/:id', 'Private/NewsController.recoverConfirm')
   Route.post('/recover/:id', 'Private/NewsController.recover')
-}).prefix('private/news')
+}).prefix('editor-panel/news')
