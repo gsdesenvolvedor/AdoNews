@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{ title }}</title>
+
+  @entryPointStyles('app')
+
+</head>
+
+  <body class="bg-gray-100 flex flex-col min-h-screen">
+
+  @include('layout/header')
+
+    @!section('content')
+
+  @include('layout/footer')
+
+  @entryPointScripts('app')
+
+  </body>
+
+</html>
