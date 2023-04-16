@@ -15,4 +15,4 @@ Route.group(() => {
 
   Route.get('/recover/:id', 'Private/UsersController.recoverConfirm')
   Route.post('/recover/:id', 'Private/UsersController.recover')
-}).prefix('editor-panel/users')
+}).prefix('editor-panel/users').middleware('auth')
